@@ -1,40 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true">
+    android:padding="16dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/buttonToggleLanguage"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="TH/EN" />
 
-        <Button
-            android:id="@+id/btn1"
-            style="@style/SoundButton"
-            android:text="@string/btn1" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/buttonToggleLanguage"
+        android:layout_marginTop="16dp">
 
-        <Button
-            android:id="@+id/btn2"
-            style="@style/SoundButton"
-            android:text="@string/btn2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/btn3"
-            style="@style/SoundButton"
-            android:text="@string/btn3" />
+            <Button
+                android:id="@+id/button1"
+                style="@style/SoundButton"
+                android:text="Hello welcome" />
 
-        <Button
-            android:id="@+id/btn4"
-            style="@style/SoundButton"
-            android:text="@string/btn4" />
+            <Button
+                android:id="@+id/button2"
+                style="@style/SoundButton"
+                android:text="Dine-in or Take-away" />
 
-        <Button
-            android:id="@+id/btn5"
-            style="@style/SoundButton"
-            android:text="@string/btn5" />
+            <Button
+                android:id="@+id/button3"
+                style="@style/SoundButton"
+                android:text="Please select a menu item" />
 
-    </LinearLayout>
-</ScrollView>
+            <Button
+                android:id="@+id/button4"
+                style="@style/SoundButton"
+                android:text="Please select payment method" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/SoundButton"
+                android:text="Thank you" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

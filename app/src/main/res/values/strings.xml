@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">Text-to-Speech Application</string>
-    <string name="btn1">Hello welcome</string>
-    <string name="btn2">Dine-in or Take-away</string>
-    <string name="btn3">Please select a menu item</string>
-    <string name="btn4">Please select payment method</string>
-    <string name="btn5">Thank you</string>
+    <string name="button_toggle_language">TH/EN</string>
+
+    <string-array name="button_texts">
+        <item name="button1">Hello welcome|สวัสดี ยินดีต้อนรับ</item>
+        <item name="button2">Dine-in or Take-away|ทานที่นี่หรือกลับบ้าน</item>
+        <item name="button3">Please select a menu item|เชิญเลือกสินค้าได้เลย</item>
+        <item name="button4">Please select payment method|กรุณาเลือกช่องทางการชำระเงิน</item>
+        <item name="button5">Thank you|ขอบคุณที่ใช้บริการ</item>
+    </string-array>
 </resources>
