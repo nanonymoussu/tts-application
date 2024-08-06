@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Text-to-Speech Application</string>
+    <string name="btn1">Hello welcome</string>
+    <string name="btn2">Dine-in or Take-away</string>
+    <string name="btn3">Please select a menu item</string>
+    <string name="btn4">Please select payment method</string>
+    <string name="btn5">Thank you</string>
+</resources>
